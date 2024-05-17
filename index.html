@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealer Mobil Jogja</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Mobil Jogja</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cars">Koleksi Mobil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4">Selamat Datang di Dealer Mobil Jogja</h1>
+            <p class="lead">Temukan mobil impian Anda dengan mudah dan cepat.</p>
+            <a href="#cars" class="btn btn-primary">Lihat Koleksi Mobil</a>
+        </div>
+    </header>
+
+    <!-- Cars Section -->
+    <section id="cars" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Koleksi Mobil</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/image/img1.jpg" class="card-img-top" alt="Mobil 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Toyota All New Avanza 2024</h5>
+                            <p class="card-text">Spesifikasi Teknik Toyota Avanza 2024
+                                Varian tertinggi hadir dengan mesin Bensin 1498 cc, yang mampu menghasilkan tenaga hingga 103 hp dan torsi puncak 136 Nm. Avanza 2024 1.5L berkapasitas 6-penupang dibekali juga dengan transmisi Variable Speed CVT. Sistem keamanannya dibekali Central Locking & Power Door Locks.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/image/img2.jpg" class="card-img-top" alt="Mobil 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Daihatsu Ayla 2024</h5>
+                            <p class="card-text">Daihatsu Ayla 2024 adalah 5 Seater Hatchback yang tersedia dalam daftar harga Rp 135 - 190,9 Juta di Indonesia. Ini tersedia dalam 7 warna, 9 varian, 2 pilihan mesin, dan 2 opsi transmisi: Manual dan CVT di Indonesia. Mobil ini memiliki ground clearance 160 mm dengan dimensi sebagai berikut: 4110 mm L x 1655 mm W x 1600 mm H.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/image/img3.jpg" class="card-img-top" alt="Mobil 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Honda HR-V 2024</h5>
+                            <p class="card-text">Honda HRV tersedia dalam pilihan mesin Bensin di Indonesia Crossover baru dari Honda hadir dalam 4 varian. Bicara soal spesifikasi mesin Honda HRV, ini ditenagai dua pilihan mesin Bensin berkapasitas 1498 cc. HRV tersedia dengan transmisi CVT tergantung variannya. HRV adalah Crossover 5 seater dengan panjang 4385 mm, lebar 1790 mm, wheelbase 2610 mm.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Tentang Kami</h2>
+            <p>Dealer Mobil Jogja adalah dealer mobil terpercaya yang menyediakan berbagai jenis mobil berkualitas tinggi dengan harga bersaing. Kami berkomitmen untuk memberikan pelayanan terbaik kepada pelanggan dengan menyediakan mobil-mobil terbaru dan layanan purna jual yang memuaskan.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Kontak Kami</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label>Jenis Kelamin:</label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+                        <label class="form-check-label" for="male">Laki-laki</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
+                        <label class="form-check-label" for="female">Perempuan</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="interest">Minat:</label><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="sedan" value="sedan">
+                        <label class="form-check-label" for="sedan">Toyota All New Avanza 2024</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="suv" value="suv">
+                        <label class="form-check-label" for="suv">Daihatsu Ayla 2024</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="truck" value="truck">
+                        <label class="form-check-label" for="truck">Honda HR-V 2024</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success">Kirim</button>
+                <button type="button" class="btn btn-secondary" id="clearForm">Bersihkan Form</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+</html>

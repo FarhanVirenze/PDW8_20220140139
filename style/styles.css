@@ -1,0 +1,23 @@
+.hero-section {
+    background: url('https://img.pikbest.com/background/20220119/car-banner-background_6224454.jpg!sw800') no-repeat center center;
+    background-size: cover;
+    color: whitesmoke;
+    padding: 100px 0;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#contactForm .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.hero-section h1 {
+    font-weight: bold; 
+}
+
+.hero-section p {
+    font-weight: bold; 
+}
